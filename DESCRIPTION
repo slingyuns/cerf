@@ -1,0 +1,42 @@
+Package: erf
+Title: Extreme Random Forest
+Version: 0.0.1
+Authors@R: 
+    as.person(c(
+    "Nicola Gnecco <nicola.gnecco@gmail.com> [aut, cre]",
+    "Edossa Terefe [aut]",
+    "Sebastian Engelke [aut]"
+    ))
+Description: Extreme quantile prediction in high-dimensions.
+Depends: R (>= 3.6.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    grf,
+    ismev,
+    ggplot2,
+    Rcpp,
+    purrr,
+    Rdpack,
+    tibble,
+    rngtools,
+    dplyr,
+    foreach,
+    magrittr,
+    utils,
+    stats,
+    rlang,
+    glue,
+    tidyr
+URL: https://github.com/nicolagnecco/erf
+BugReports: https://github.com/nicolagnecco/erf/issues
+RdMacros: Rdpack
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
+Suggests: 
+    testthat,
+    bench
